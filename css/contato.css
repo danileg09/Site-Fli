@@ -1,0 +1,39 @@
+.contato{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+#contact-form input[type="text"],#contact-form input[type="email"],#contact-form textarea{
+    margin-bottom: 15px;
+    border-radius: 0px;
+ }
+
+.main-btn{
+    text-align: center;
+    width: 120px;
+    height: 50px;
+} 
+.main-btn:hover{
+    cursor: pointer;
+    margin-left: 15px;
+    color:#444 
+}
+
+.link{
+color: #444
+}
+
+.link:hover{
+    text-decoration: none;
+}
+
+.footer-contact{
+    border: none;
+}
+
+
+.hr1{
+    border: 0;
+    border-top: 1px solid #444;
+}

@@ -1,0 +1,41 @@
+
+/*Navbar*/
+@navbarColor:#353d41;
+@navbarItensColor:#FFFF;
+
+header{
+    background-color: @navbarColor;
+    .container{
+       margin-left: -20px;
+       .navbar{
+           display: flex;
+           button{
+               margin-right: -3rem;
+           }
+       } 
+    }
+}
+
+.space-navContainer(){
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#nav-container{
+    .space-navContainer();
+}
+
+
+#logo{
+    width: 50px;
+}
+
+.navbar-brand{
+    padding:0;
+}
+
+.navbar-links a, .navbar-brand{
+   color:@navbarItensColor;
+}
+
+
